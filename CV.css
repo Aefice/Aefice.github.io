@@ -1,0 +1,25 @@
+@charset "utf-8";
+/* CSS Document */
+
+.CV-row{
+	position: relative;
+}
+.CV-col{
+	flex-basis: 32%;
+	border-radius: 10px;
+	margin-bottom: 30px;
+	position: relative;
+	overflow: hidden;
+	
+}
+.CV-col Img{
+	width: 30%;
+}
+.TT h5{
+	font-size: 50px;
+}
+.CV-col p{
+	text-decoration: overline;
+	
+	text-shadow:  0 0 0 #495057;
+}
