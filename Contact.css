@@ -59,11 +59,11 @@ article p{
 	padding:12px 10px;
 	font-size: 13;
 	background: transparent;
-	position:static;
+	position:inherit;
 	cursor: pointer;
 }
 .num:hover{
-	border:1px ridge;
+	border:1px solid;
 	transition: 0s;
 	
 }
