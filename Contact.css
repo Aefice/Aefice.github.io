@@ -53,7 +53,20 @@ article p{
 	margin-left: 400px;
 	margin-right: 400px;
 	}
-
+.num{
+	display: inline-block;
+	text-decoration: none;
+	padding:12px 10px;
+	font-size: 13;
+	background: transparent;
+	position:static;
+	cursor: pointer;
+}
+.num:hover{
+	border:1px ridge;
+	transition: 0s;
+	
+}
 
 
 
