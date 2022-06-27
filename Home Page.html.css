@@ -1,0 +1,29 @@
+@charset "utf-8";
+body {
+    text-align: center;
+}
+
+
+.homebtn{
+		display: inline-block;
+	text-decoration: none;
+	color: #030303;
+	border:1px solid #0F0000;
+	padding:12px 34px;
+	font-size: 13;
+	background: transparent;
+	position: relative;
+	cursor: pointer;
+	}
+	.homebtn:hover{
+	border:1px solid;
+	background: #000000;
+	transition: 1s;
+	color: #FFFFFF;
+}
+.works{
+	width: 80%;
+	margin: auto;
+	text-align: center;
+	padding-top: 100px;
+}

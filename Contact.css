@@ -1,0 +1,60 @@
+@charset "utf-8";
+/* CSS Document */
+*{margin:0px;
+	padding: 0px;
+	box-sizing: border-box;
+	text-align: center;
+	color: #000000;
+	line-height: 1.5;
+	letter-spacing: 1px;
+	
+}
+.wrapper_1{
+	min-height: 100vh;
+	width: 100%;
+	
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+		
+}
+.testimonial_1{
+	padding: 30px 100px;
+	
+}
+article h1{
+	font-size: 50px;
+	font-weight: 800;
+	text-transform: uppercase;
+	letter-spacing: 1.5px;
+}
+article h1:after{
+	content:"";
+	height: 5px;
+	width: 225px;
+	background-color: #000000;
+	display: block;
+	margin:auto;
+}
+
+	
+blockquote{
+	font-size: 20px;
+	margin-top: 30px;
+}
+article h5{
+	text-transform: uppercase;
+	font-size: 27px;
+	margin-top: 30px;
+	letter-spacing: 1.5px;
+}
+article p{
+	font-size: 17px;
+	margin-left: 400px;
+	margin-right: 400px;
+	}
+
+
+
+
+
