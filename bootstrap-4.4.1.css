@@ -63,6 +63,7 @@ body {
     color: #212529;
     background-color: #fff;
 	text-align: center;
+	
 }
 
 [tabindex="-1"]:focus:not(:focus-visible) {
@@ -83,9 +84,9 @@ h1, h2, h3, h4, h5, h6 {
 p {
     margin-top: 0;
     margin-bottom: 1rem;
-    text-align: center;
     font-weight: 400;
     font-size: 24px;
+    text-align: center;
 }
 
 abbr[title],
@@ -10272,4 +10273,5 @@ a.text-dark:hover, a.text-dark:focus {
 .column:hover{
 	box-shadow: 0 0 20px 0px rgba(5,5,5,5.2);
 }
+
 /*# sourceMappingURL=bootstrap.css.map */
