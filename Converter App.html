@@ -5,6 +5,8 @@
 <title>Converter App</title>
 
 <link href="bootstrap-4.4.1.css" rel="stylesheet" type="text/css">
+<link href="Curr.css" rel="stylesheet" type="text/css">
+<script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
@@ -25,8 +27,56 @@
       </tr>
   </tbody>
   </table>
+	<p>&nbsp;</p>
+	<div class="Slider_img">
+		<div class="Images_con">
+			<img src="Img/CON1.png">
+			<img src="Img/CON2.png">
+			<img src="Img/CON3.png">
+			<img src="Img/CON4.png">
+			<img src="Img/CON5.png">
+			<img src="Img/CON6.png">
+	  </div>
+		<div onclick="side_slide(1)" class="Slider right">
+			<span class="fas fa-angle-right"></span>
+		
+		</div>
+		<div onclick="side_slide(-1)" class="Slider left">
+			<span class="fas fa-angle-left"></span>
+		</div>
+		
+		<div class="btns-slider">
+			<span onclick="btns_slider(1)"></span>
+			<span onclick="btns_slider(2)"></span>
+			<span onclick="btns_slider(3)"></span>
+			<span onclick="btns_slider(4)"></span>
+			<span onclick="btns_slider(5)"></span>
+			<span onclick="btns_slider(6)"></span>
+		</div>
+</div>
+	
+	<script>
+	var indexValue = 1;
+	showImg(indexValue);
+		function btns_slider(e){showImg(indexValue = e);}
+		function side_slide(e){showImg(indexValue += e);}
+		function showImg(e){
+			var i;
+			const Img = document.querySelectorAll('Img');
+			const Slider = document.querySelectorAll('.btns-slider span');
+			if(e > Img.length){indexValue = 1}
+			if(e < 1){indexValue = Img.length}
+			for(i = 0; i < Img.length; i++){
+				Img[i].style.display = "none";
+			}
+			Img[indexValue-1].style.display = "block";
+
+		}
+	</script>
 <script src="js/jquery-3.4.1.min.js"></script>
 <script src="js/popper.min.js"></script>
 <script src="js/bootstrap-4.4.1.js"></script>
+<script src="Currencycon.js"></script>
+
 </body>
 </html>
